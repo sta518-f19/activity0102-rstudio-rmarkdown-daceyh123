@@ -2,7 +2,10 @@
 title: "Activity 1.2 - RStudio and R Markdown"
 author: "Hunter Dacey"
 date: "8/26/2019"
-output: html_document
+output: 
+  html_document: 
+    fig_height: 8
+    fig_width: 12
 ---
 
 ### Load packages
