@@ -45,7 +45,14 @@ dino_data %>%
 Blah blah blah...
 
 ```{r plot-star}
+star_data <- datasaurus_dozen %>%
+  filter(dataset == "star")
 
+ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
+  geom_point()
+
+star_data %>%
+  summarize(r = cor(x, y))
 ```
 
 I'm some text, you should replace me with more meaningful text...
