@@ -83,7 +83,7 @@ circle_data %>%
 
 ### Exercise 5
 
-There is less correlation whe it compares to other sets like Dino and Star.
+There is less correlation whe it compares to other sets like Dino and Star..
 
 ```{r all_graph}
 ggplot(data = datasaurus_dozen, aes(x = x, y = y, color = dataset)) +
